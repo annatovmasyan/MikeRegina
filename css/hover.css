@@ -1,0 +1,52 @@
+@media only screen and (min-width: 768px) {
+
+    .menu .menu__item .menu__link:hover,
+    .navbar-default .navbar-nav > .active > a:hover {
+        color: #db7063;
+        background-color: transparent;
+    }
+
+    .btn_link:hover:before {
+        width: 100%;
+    }
+
+    .head_work_btn:hover {
+        color: #fff;
+    }
+
+    .learn_btn:hover,
+    .footer_btn:hover,
+    .work_btn:hover {
+       color: #ef4d30;
+    }
+
+    .btn-default.form-button:hover {
+        border-color: #ef4d30;
+        color: #ef4d30;
+        outline: none;
+    }
+
+
+    .footer_btn:hover{
+        border-color: transparent;
+    }
+
+    .form-btn:hover:before {
+        width: 100%;
+    }
+
+    .form-btn:hover {
+        color: #ef4d30;
+        z-index: 2;
+    }
+
+    .blog_link:hover,
+    .more:hover {
+        color: #ef4d30;
+    }
+
+    .social_link:hover {
+        background-color: #ef4d30;
+    }
+
+}
